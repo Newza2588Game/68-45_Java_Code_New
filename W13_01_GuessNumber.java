@@ -5,9 +5,11 @@ import java.util.Scanner;
 
 public class W13_01_GuessNumber {
 
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Random rand = new Random();
         int i, userguess, numbertoguess = rand.nextInt(10) + 1;
+        @SuppressWarnings("resource")
         Scanner kb = new Scanner(System.in);
 
         /*for (i = 0; i >= 0; i++) {
