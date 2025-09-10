@@ -6,6 +6,7 @@ public class W12_01_For_SumNumber {
     @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         int i, j = 0, Start, End, sum = 0;
+        @SuppressWarnings("resource")
         Scanner kb = new Scanner(System.in);
 
         System.out.print("Enter Your Starting number : ");
