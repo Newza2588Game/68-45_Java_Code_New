@@ -36,7 +36,7 @@ public class W13_01_GuessNumber {
             }
             if (i == 1) {
                 System.out.println("You Lose!");
-                System.out.println("The number to guess is " + numbertoguess);
+                System.out.println("The Right number was : " + numbertoguess);
                 System.out.println("------------------------------------------");
             }
         }
