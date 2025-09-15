@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class HW14_IfOddorEven {
 
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         int startingNumber, endingNumber, i;
         Scanner kb = new Scanner(System.in);
@@ -25,8 +26,6 @@ public class HW14_IfOddorEven {
                 System.out.println("===============================");
             }
         } while (startingNumber >= endingNumber);
-
-        
-
+        kb.close();
     }
 }
