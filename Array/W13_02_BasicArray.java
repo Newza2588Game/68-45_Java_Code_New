@@ -2,6 +2,7 @@ package Array;
 
 public class W13_02_BasicArray {
 
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         int i;
         String animals[] = {"Cat", "Dog", "Elephant", "Tiger", "Lion"};
